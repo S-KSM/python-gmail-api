@@ -28,9 +28,9 @@ This is a step-by-step guide on how to get a message sender going (note this is 
 12. Click the download icon and save the file to somewhere in your project - rename it, e.g. 'python_gmail_api_client_secret.json'
 13. Add the python-gmail-api code to your project.
 14. Modify the following as required:
-i. CLIENT_SECRET_FILE
-ii. APPLICATION_NAME
-iii. MANUAL_AUTH
+  i. CLIENT_SECRET_FILE
+  ii. APPLICATION_NAME
+  iii. MANUAL_AUTH
 15. The first time you call the code, you will be asked to go to a URL and after authenticating, copy the auth code into terminal
 
 Usage
@@ -38,8 +38,8 @@ Usage
 
 Call script python_gmail_api.py ($ python3 python_gmail_api.pg) directly to send an email from a CLI.
 
-Import PythonGmailAPI
-PythonGmailAPI().gmail_send(sender_address, to_address, subject, body)
+    Import PythonGmailAPI
+    PythonGmailAPI().gmail_send(sender_address, to_address, subject, body)
 
 The following API test harness is useful for troubleshooting: https://developers.google.com/apis-explorer/?hl=en_GB#p/gmail/v1/
 
