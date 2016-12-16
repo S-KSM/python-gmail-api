@@ -16,7 +16,14 @@ from oauth2client.file import Storage
 from googleapiclient.discovery import build
 
 # --------------------------------------------------------------------------------------
+# This is the name of the secret file you download from https://console.developers.google.com/iam-admin/projects
+# Give it a name that is unique to this project
 CLIENT_SECRET_FILE = 'python_gmail_api_client_secret.json'
+# This is the file that will be created in ~/.credentials holding your credentials. It will be created automatically
+# the first time you authenticate and will mean you don't have to re-authenticate each time you connect to the API.
+# Give it a name that is unique to this project
+CREDENTIAL_FILE = 'python_gmail_api_credentials.json'
+
 APPLICATION_NAME = 'python-gmail-api'
 # Set to True if you want to authenticate manually by visiting a given URL and supplying the returned code
 # instead of being redirected to a browser. Useful if you're working on a server with no browser.
@@ -65,7 +72,7 @@ class PythonGmailAPI:
         credential_dir = os.path.join(home_dir, '.credentials')
         if not os.path.exists(credential_dir):
             os.makedirs(credential_dir)
-        credential_path = os.path.join(credential_dir, 'python-gmail-api.json')
+        credential_path = os.path.join(credential_dir, CREDENTIAL_FILE)
         store = Storage(credential_path)
         credentials = store.get()
         if not credentials or credentials.invalid:

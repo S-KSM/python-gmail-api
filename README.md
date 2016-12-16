@@ -55,8 +55,8 @@ It's really simple, the only method you should call directly is:
 Code example:
 
     from python_gmail_api import PythonGmailAPI
-    sender_address = 'chrisbrown79@gmail.com'
-    to_address = 'chrisbrown79@gmail.com'
+    sender_address = 'c******@gmail.com'
+    to_address = 'c******79@gmail.com'
     subject = 'Test subject'
     body = 'Test body'
     PythonGmailAPI().gmail_send(sender_address, to_address, subject, body)
