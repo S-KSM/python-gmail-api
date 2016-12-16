@@ -1,7 +1,7 @@
 python-gmail-api
 ================
 
-Connect to the Gmail API using Python.
+Connect to the Gmail API using Python 3.
 
 https://github.com/chris-brown-nz/python-gmail-api
 
