@@ -7,7 +7,6 @@
 from __future__ import print_function
 import base64
 import email.mime.text
-import mimetypes
 import os
 import httplib2
 from oauth2client import client

@@ -83,4 +83,4 @@ Changelog
 
 Date | Description
 ---- | -----------
-2016-12-16 | Initial release
+2016-12-16 | Initial release. Tested with Gmail API client v1.5.5, Python 3.5, Ubuntu 16.04 64-bit desktop.
