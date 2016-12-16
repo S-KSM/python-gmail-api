@@ -1,16 +1,18 @@
-# python-gmail-api
+python-gmail-api
+================
 
-Connect to the Gmail API using Python
+Connect to the Gmail API using Python.
 
-http://stackoverflow.com/questions/32136330/where-do-i-get-the-authorized-gmail-api-service-instance-python-gmail-api#
+Only works for sending at the moment, but I do plan to add other functionality eventually.
 
-Only works for sending atm
+# https://github.com/chris-brown-nz/python-gmail-api
+# Created: 2016-12-14
+# Author: Chris Brown
+# Based on and using code from examples at: https://developers.google.com/gmail/api/
+# Google API test harness: https://developers.google.com/apis-explorer/?hl=en_GB#p/gmail/v1/
 
-I had the same problem as above, but the answer provided by ragnampiza on 2015-08-21 didn't work in my case. There may have been some change to the API since then, or I am missing something.
-
-The reason I'm using the API is because I'm running a few Linux servers for data analysis and want to send an occasional status email to myself. The Gmail API is considerably easier (and more secure given my inexperience in this area) than setting up a local email server.
-
-Anyway, the solution I came up with is based on various examples from https://developers.google.com/gmail/api/
+Install
+-------
 
 This is a step-by-step guide on how to get a message sender going (note this is for Python 3.5):
 Install requirements ($ pip3??? requirements.txt)
