@@ -3,7 +3,6 @@
 #   https://developers.google.com/gmail/api/quickstart/python
 
 import logging
-
 from googleapiclient import errors
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.client import FlowExchangeError
