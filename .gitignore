@@ -1,8 +1,0 @@
-# client secret file
-python_gmail_api_client_secret.json
-
-# pycharm stuff
-.idea
-
-# this
-.gitignore
