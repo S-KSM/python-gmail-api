@@ -13,7 +13,7 @@ Based on and using code from examples at: https://developers.google.com/gmail/ap
 Install
 -------
 
-This is a step-by-step guide on how to get a message sender going (note this is for Python 3.5):
+This is a step-by-step guide on how to get a message sender going:
 
 1. Install requirements ($ pip3 install -r requirements.txt)
 2. Go to Google APIs: https://console.developers.google.com/iam-admin/projects
